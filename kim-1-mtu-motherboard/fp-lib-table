@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KIM-1_Library")(type "KiCad")(uri "${KIPRJMOD}/footprints/KIM-1_Library.pretty")(options "")(descr ""))
+  (lib (name "CP_Radial_THT")(type "KiCad")(uri "${KIPRJMOD}/footprints/CP_Radial_THT_Library.pretty")(options "")(descr ""))
+  (lib (name "PinHeader_Round_Pin")(type "KiCad")(uri "${KIPRJMOD}/footprints/PinHeader_Library.pretty")(options "")(descr ""))
+)
