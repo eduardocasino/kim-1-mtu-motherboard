@@ -8,7 +8,7 @@ This board follows the MTU standard for the KIM-1 expansion and application buse
 
 Two audio jacks allow for cassette deck connection and two optional daughterboards provide IEC and RS-232 or USB serial connections, and also a connector compatible with Corsham's SD Shield.
 
-The MTU bus connects 1 to 1 to the KIM-1 expansion connector with the exception of pins 2,3, 16, 17, 18, 19, 20 and X, because MTU boards use some of these pins for power and expanded 18 bit address bus (See page 33 of the [MTU Fall 1980 6502 Peripherals and Software catalog](http://retro.hansotten.nl/uploads/files/MTU-fall-1980.pdf)) Lines 19 and 20 are connected to pins J (K7) and K (DECODE ENABLE) of the KIM-1 application connector, respectively. Those two signals can be limited to just the first or the first and second connectors by opening some jumpers.
+The MTU bus connects 1 to 1 to the KIM-1 expansion connector with the exception of pins 2,3, 16, 17, 18, 19, 20 and X, because MTU boards use some of these pins for power and expanded 18 bit address bus (See page 33 of the [MTU Fall 1980 6502 Peripherals and Software catalog](hhttp://retro.hansotten.nl/6502-sbc/mtu/) Lines 19 and 20 are connected to pins J (K7) and K (DECODE ENABLE) of the KIM-1 application connector, respectively. Those two signals can be limited to just the first or the first and second connectors by opening some jumpers.
 
 A five screw terminal block provides power connections for both the KIM-1 (GND, +5V and +12V regulated) and the expansion boards (+7.5V and +16V unregulated). 
 
