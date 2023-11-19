@@ -12,17 +12,17 @@ The MTU bus connects 1 to 1 to the KIM-1 expansion connector with the exception 
 
 A five screw terminal block provides power connections for both the KIM-1 (GND, +5V and +12V regulated) and the expansion boards (+7.5V and +16V unregulated). 
 
-![components](https://github.com/eduardocasino/kim-1-mtu-emotherboard/kim-1-mtu-emotherboard/blob/main/images/kim-1-mtu-motherboard-comp.png?raw=true)
-![front](https://github.com/eduardocasino/kim-1-mtu-expansion-card/kim-1-mtu-emotherboard/blob/main/images/kim-1-mtu-motherboard-front.png?raw=true)
-![back](https://github.com/eduardocasino/kim-1-mtu-expansion-card/kim-1-mtu-emotherboard/blob/main/images/kim-1-mtu-motherboard-back.png?raw=true)
+![components](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-mtu-motherboard/images/kim-1-mtu-motherboard.png?raw=true)
+![front](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-mtu-motherboard/images/kim-1-mtu-motherboard-front.png?raw=true)
+![back](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-mtu-motherboard/images/kim-1-mtu-motherboard-back.png?raw=true)
 
 Detail of the two auxiliary boards:
-![rs232](https://github.com/eduardocasino/kim-1-mtu-expansion-card/kim-1-aux-card/blob/main/images/kim-1-aux-card-on-board.png?raw=true)
-![usb](https://github.com/eduardocasino/kim-1-mtu-expansion-card/kim-1-aux-card-usb/blob/main/images/kim-1-aux-card-usb-on-board.png?raw=true)
+![rs232](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-aux-card/images/kim-1-aux-card-on-board.png?raw=true)
+![usb](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-aux-card-usb/images/kim-1-aux-card-usb-on-board.png?raw=true)
 
 This is how an example setup with one K-1008 board and a [RAM/ROM expansion card](https://github.com/eduardocasino/kim-1-mtu-ram-rom) would look like:
 
-![setup](https://github.com/eduardocasino/kim-1-mtu-motherboard/kim-1-mtu-emotherboard/blob/main/images/kim-1-with-k-1008-ram-rom.png?raw=true)
+![setup](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-mtu-motherboard/images/kim-1-with-k-1008-ram-rom.png?raw=true)
 
 **NOTE**: [This expansion board is a much simpler option](https://github.com/eduardocasino/kim-1-mtu-expansion-card) if you just need to connect some MTU cards. Those are engineered so they put less than 1 TTL load on the CPU buses, so no buffering is really needed. Why the buffering, then? Well, just for fun.
 
