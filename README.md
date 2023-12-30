@@ -1,5 +1,11 @@
 # KIM-1 Motherboard for MTU Cards
 
+## **WARNING**
+
+**THE CURRENT DESIGN IS FLAWED AND IT WON'T WORK. DO NOT USE YET!!!**
+
+See [Issue #2](https://github.com/eduardocasino/kim-1-mtu-motherboard/issues/2)
+
 ## About
 
 Welcome to my KIM-1 Motherboardfor MTU cards repository.
