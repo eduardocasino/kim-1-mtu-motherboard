@@ -44,6 +44,10 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 See the LICENSE.md file for details.
 
+## Changelog
+#### 02/01/2024
+* Disable data bus transceiver when DECEN or K7 are active (low)
+
 ## Acknowledgements
 
 * Hans Otten and his [Retro Computing blog](http://retro.hansotten.nl/). Documentation of MTU's line of hardware expansions for the KIM-1
