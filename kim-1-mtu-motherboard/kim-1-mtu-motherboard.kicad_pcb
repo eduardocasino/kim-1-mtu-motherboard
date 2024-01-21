@@ -2491,7 +2491,7 @@
       (tstamp a1ed66e8-4340-4f69-a69e-5a4fda9cfdce)
     )
     (fp_text value "Decode" (at 2.85 -1.05) (layer "F.SilkS")
-        (effects (font (size 1 1) (thickness 0.2) bold) (justify right))
+        (effects (font (size 1 1) (thickness 0.2) bold) (justify left))
       (tstamp 785b5e98-390b-4477-a1fd-7533d6ba7563)
     )
     (fp_text user "${REFERENCE}" (at 0 2.54) (layer "F.Fab")
