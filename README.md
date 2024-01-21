@@ -2,9 +2,9 @@
 
 ## **WARNING**
 
-**THE CURRENT DESIGN IS FLAWED AND IT WON'T WORK. DO NOT USE YET!!!**
+**ALTHOUGH THE REV. 2 SEEMS TO BE WORKING SO FAR, IT STILL NEEDS MORE TESTING. USE AT YOUR OWN RISK!!!**
 
-See [Issue #2](https://github.com/eduardocasino/kim-1-mtu-motherboard/issues/2)
+If you ordered the first revision PCB, please see the "Rev. 1 Fix" section below.
 
 ## About
 
@@ -32,8 +32,6 @@ This is how an example setup with one K-1008 board and a [RAM/ROM expansion card
 
 **NOTE**: [This expansion board is a much simpler option](https://github.com/eduardocasino/kim-1-mtu-expansion-card) if you just need to connect some MTU cards. Those are engineered so they put less than 1 TTL load on the CPU buses, so no buffering is really needed. Why the buffering, then? Well, just for fun.
 
-**WARNING**: This board has not been tested yet, use at your own risk!
-
 ## Licensing
 
 This is a personal project that I am sharing in case it is of interest to any retrocomputing enthusiast and all the information in this repository is provided "as is", without warranty of any kind. I am not liable for any damages that may occur, whether it be to individuals, objects, KIM-1 computers, kittens or any other pets.
@@ -44,7 +42,38 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 See the LICENSE.md file for details.
 
+## Rev. 1 Fix
+
+If you tried to build revision 1 of this board, you found out that it does not work (See [Issue #2](https://github.com/eduardocasino/kim-1-mtu-motherboard/issues/2))
+
+You can [install this simple PCB](https://github.com/eduardocasino/kim-1-mtu-motherboard/rev-1-fix) or, alternatively, perform this bodge on the back of the PCB:
+
+Using a cutter, carefully cut these two spokes at pin 19 of U4:
+
+![step1](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-motherboard/main/rev-1-fix/images/rev-1-fix-cut.png)
+
+Grab a 14 pin IC socket with flat pins. Bend pins 1,2,3,7 and 14 outwards and cut the rest.
+
+Solder wires to the pins as per this image:
+
+![step1](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-motherboard/main/rev-1-fix/images/ic-solder.png)
+
+Cover the back of the socket with non conductive tape. Attach the wires to these spots on the motherboard:
+
+![step2](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-motherboard/main/rev-1-fix/images/rev-1-fix-solder.png)
+
+Place a 74LS00 in the socket (check the orientation!) and fix evrything to the PCB using some tape, like in this image. I took K7 from another pin, but it is all the same:
+
+![step2](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-motherboard/main/rev-1-fix/images/motherboard-bodge.png)
+
 ## Changelog
+#### 21/01/2024
+* Release Rev. 2
+* Add instructions to fix Rev. 1 boards.
+
+#### 03/01/2024
+* Minor silkscreen update
+
 #### 02/01/2024
 * Disable data bus transceiver when DECEN or K7 are active (low)
 
