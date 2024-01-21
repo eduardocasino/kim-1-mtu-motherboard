@@ -12,24 +12,24 @@ This simple PCB fixes the first revision of the KIM-1 motherboard. Just put it i
 
 **NOTE: This is only necessary for the first revision of the motherboard. Rev. 2 is already corrected.**
 
-![image](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-mtu-motherboard/rev-1-fix/images/rev-1-fix.png?raw=true)
+![image](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-motherboard/main/rev-1-fix/images/rev-1-fix.png)
 
 
 ## Installation
 
 Carefully drill a 2mm hole in this position:
 
-![step1](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-mtu-motherboard/rev-1-fix/images/rev-1-fix-pcb-hole.png?raw=true)
+![step1](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-motherboard/main/rev-1-fix/images/rev-1-fix-pcb-hole.png?raw=true)
 
 Solder sufficiently long cables to K7 and DECEN pads of the fix board.
 
 Remove C4 and place the fix board in place of U4. Pass the cables through the newly drilled hole.
 
-![step2](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-mtu-motherboard/rev-1-fix/images/rev-1-fix-installed.png?raw=true)
+![step2](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-motherboard/main/rev-1-fix/images/rev-1-fix-installed.png?raw=true)
 
 Solder the cables to the back of the motherboard at these spots:
 
-![step3](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-mtu-motherboard/rev-1-fix/images/rev-1-fix-solder-hole.png?raw=true)
+![step3](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-motherboard/main/rev-1-fix/images/rev-1-fix-solder-hole.png?raw=true)
 
 
 ## Licensing
