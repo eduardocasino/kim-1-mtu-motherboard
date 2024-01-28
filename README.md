@@ -1,6 +1,8 @@
 # KIM-1 Motherboard for MTU Cards
 
-## **WARNING**
+## **WARNINGS**
+
+**BOTH AUX CARDS (RS-232 AND USB) SUFFER FROM A DESIGN MISTAKE AND DO NOT WORK WITH CORSHAM'S SD SHIELD. SEE [Issue #3](https://github.com/eduardocasino/kim-1-mtu-motherboard/issues/3)**
 
 **ALTHOUGH THE REV. 2 SEEMS TO BE WORKING SO FAR, IT STILL NEEDS MORE TESTING. USE AT YOUR OWN RISK!!!**
 
