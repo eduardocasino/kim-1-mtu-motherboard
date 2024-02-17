@@ -1,12 +1,12 @@
 # KIM-1 Motherboard for MTU Cards
 
-## **WARNINGS**
+## **WARNING**
 
-**BOTH AUX CARDS (RS-232 AND USB) SUFFER FROM A DESIGN MISTAKE AND DO NOT WORK WITH CORSHAM'S SD SHIELD. SEE [Issue #3](https://github.com/eduardocasino/kim-1-mtu-motherboard/issues/3)**
-
-**ALTHOUGH THE REV. 2 SEEMS TO BE WORKING SO FAR, IT STILL NEEDS MORE TESTING. USE AT YOUR OWN RISK!!!**
+**ALTHOUGH THE CARDS HAVE BEEN TESTED NOW, THERE MAY BE MORE ERRORS. USE AT YOUR OWN RISK!!!**
 
 If you ordered the first revision PCB, please see the "Rev. 1 Fix" section below.
+
+If you ordered earlier revisions of the aux cards (RS-232 and USB), please see the "Aux. Cards Fix" section below. 
 
 ## About
 
@@ -68,7 +68,23 @@ Place a 74LS00 in the socket (check the orientation!) and fix evrything to the P
 
 ![step2](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-motherboard/main/rev-1-fix/images/motherboard-bodge.png)
 
+## Aux. Cards Fix
+
+If you tried to build earlier revisions of the auxiliary boards (both RS-232 and USB), you may have found out that they do not work with Corsham's SD Shield, although they work fine with IEC disks (See [Issue #3](https://github.com/eduardocasino/kim-1-mtu-motherboard/issues/3))
+
+If you need them to work with the SD Shield, you can perform this simple fix. **WARNING: Doing so, the cards will no longer work with IEC disks**
+
+The fix is the same for both cards. Using a cutter, carefully cut these two tracks:
+
+![aux-card-fix](https://github.com/eduardocasino/kim-1-mtu-motherboard/blob/main/kim-1-aux-card/images/kim-1-aux-card-fix.png?raw=true)
+
+
 ## Changelog
+#### 17/02/2024
+* Release Rev. 3 (fixes the auxiliary cards, the motherboard is unchanged)
+* IEC socket footprint also supports Commodore-style sockets
+* Add instructions to fix original auxiliary boards so they work with IEC disks.
+
 #### 21/01/2024
 * Release Rev. 2
 * Add instructions to fix Rev. 1 boards.
