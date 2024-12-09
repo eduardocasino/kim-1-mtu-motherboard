@@ -8,6 +8,12 @@ If you ordered the first revision PCB, please see the "Rev. 1 Fix" section below
 
 If you ordered earlier revisions of the aux cards (RS-232 and USB), please see the "Aux. Cards Fix" section below. 
 
+## **UPDATE**
+
+There is now a third auxiliary card option, for connecting the KIM-1 terminal wirelessly using an ESP8266. This new board is not affected by the problems referred above.
+
+This card requires to transfer its firmware to the ESP8266. [Please, see the set up instructions here](https://github.com/eduardocasino/kim-1-mtu-motherboard/tree/main/kim-1-aux-card-usb/README.md).
+
 ## About
 
 Welcome to my KIM-1 Motherboardfor MTU cards repository.
